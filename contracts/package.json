@@ -1,0 +1,17 @@
+{
+  "name": "basebounce-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for BaseBounce",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:mainnet": "npx hardhat run scripts/deploy.js --network base"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.2"
+  }
+}
